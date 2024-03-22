@@ -1,8 +1,10 @@
 package application;
 
-import chass.ChessPiece;
+import chess.ChessPiece;
 
 public class UI {
+	
+//	Classe para imprimir o jogo na tela
 	
 	public static void printBoard(ChessPiece[][] pieces) {
 		for(int i = 0; i < pieces.length; i++) {
