@@ -18,7 +18,7 @@ public abstract class Piece {
 	
 	//Rook method - método que faz um gancho com a subclasse (método concreto que chama uma possível 
 	//implementação de alguma subclasse concreta da classe Piece)
-	public boolean possibleMoves(Position position) {
+	public boolean possibleMove(Position position) {
 		return possibleMoves()[position.getRow()][position.getColumn()];
 	}
 	
